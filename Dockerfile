@@ -16,7 +16,7 @@ RUN apt-get install -y python-pip && \
 pip install softlayer-object-storage
 
 # Install cloudfuse
-RUN apt-get install -y build-essential libcurl4-openssl-dev libxml2-dev libssl-dev libfuse-dev pkg-config libcurl4-gnutls-dev && \
+RUN apt-get install -y build-essential libcurl4-openssl-dev libxml2-dev libssl-dev libfuse-dev && \
 apt-get install -y curl && \
 curl -L https://github.com/redbo/cloudfuse/tarball/master > cloudfuse.tar && \
 tar -xzvf cloudfuse.tar && \
