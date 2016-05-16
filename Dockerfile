@@ -1,5 +1,5 @@
 # Dockerfile : Mount Softlayer Object Store inside a container
-# Version 1.0
+# Version 1.1
 
 # Pull base images
 FROM ubuntu
